@@ -22,7 +22,7 @@ print(len(longitudes))
 
 API_KEY="d9be5b1607992d9c2eb10dcafe8f42e2"
 base_url="http://api.openweathermap.org/data/2.5/air_pollution/history?"
-start_date="1606435932"
+start_date="1609459932"
 end_date="1637712732"
 print('****************Data Download Started*************************')
 for index in range(len(latitudes)):
