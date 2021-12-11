@@ -11,5 +11,5 @@ matplotlib>=1.4.3
 pandas>=0.19
 xgboost==1.4.1
 geopy==2.2.0
-json
+requests==2.25.0
 
