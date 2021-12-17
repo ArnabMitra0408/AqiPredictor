@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 xgb_model = pickle.load(open('xgb_clf.pkl', "rb"))
 scaler = pickle.load(open('scaler.pkl', "rb"))
-API_KEY = "d9be5b1607992d9c2eb10dcafe8f42e2"
+API_KEY = ""
 base_url = "http://api.openweathermap.org/data/2.5/air_pollution?"
 
 
