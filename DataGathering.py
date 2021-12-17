@@ -21,7 +21,7 @@ print(len(names))
 print(len(latitudes))
 print(len(longitudes))
 
-API_KEY="d9be5b1607992d9c2eb10dcafe8f42e2"
+API_KEY=""
 base_url="http://api.openweathermap.org/data/2.5/air_pollution/history?"
 start_date="1609459932"
 end_date="1637712732"
