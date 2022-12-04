@@ -3,8 +3,6 @@
 * Data was gathered using OpenWeatherMap API
 * Link for api: https://openweathermap.org/api/air-pollution
 * Optimized KNN Classifier, Logistic Regression, Random Forest Classifier, Xgboost Classifier to reach the best model
-* Built an API on Flask and deployed it on a Heroku:
-* Link: https://aqi-prediction-application.herokuapp.com/
 
 
 ## Code and Resources Used 
@@ -46,7 +44,7 @@ Avg accuracy of each model is as follows:
 *	**Xgboost Classifier**: 99.97%
 
 ## Productionization 
-In this step, I built a flask API  that was hosted on heroku. The api took the location entered by the user as input. The coordinates of the location are being found using geopy module. Those coordinates are being fed into the OpenWeatherMap api to get the pollutant data of that region. Based on that data the AQI is predicted using Xgboost model
+In this step, I built a flask API  that was hosted on local server. The api took the location entered by the user as input. The coordinates of the location are being found using geopy module. Those coordinates are being fed into the OpenWeatherMap api to get the pollutant data of that region. Based on that data the AQI is predicted using Xgboost model
 
  Below are the screenshots for the same:
  ![image](https://user-images.githubusercontent.com/56645508/146667192-d50232d0-d82f-42e7-9895-8f19a531c225.png)
