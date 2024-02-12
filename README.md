@@ -18,7 +18,7 @@
 * Json files were parsed to create the final dataframe.
 
 ## Dataset Overview
-* Carbon monoxide (CO)
+* Carbon monoxide 
 * Nitrogen monoxide (NO)
 * Nitrogen dioxide (NO2)
 * Ozone (O3)
